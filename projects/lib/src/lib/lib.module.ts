@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { LibComponent } from './lib.component';
+import { NameModule } from './name/name.module';
+import { TimeModule } from './time/time.module';
 
 @NgModule({
-  declarations: [LibComponent],
-  imports: [
-  ],
-  exports: [LibComponent]
+  imports: [NameModule, TimeModule],
+  exports: [NameModule, TimeModule]
 })
-export class LibModule { }
+export class LibModule {}

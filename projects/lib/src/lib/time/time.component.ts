@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-const moment = require("moment");
+import * as moment from "moment";
 
 @Component({
   selector: 'lib-time',
